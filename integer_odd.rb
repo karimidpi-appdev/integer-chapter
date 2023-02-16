@@ -10,3 +10,10 @@
 #   false
 
 p "Enter an odd number:"
+
+answer = gets.chomp.to_i
+if answer % 2 == 1
+  p true
+else
+  p false
+end
